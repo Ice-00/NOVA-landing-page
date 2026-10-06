@@ -26,7 +26,7 @@ function App() {
 
             <p className="mt-4 ml-1">We design and build modern websites, digital products, and automation that help businesses grow.</p>
 
-            <div className="flex gap-4 mt-4 ml-4">
+            <div className="flex gap-4 mt-4 ml-1">
               <button className="bg-black text-white px-3 py-3 rounded">Start a New Project</button>
               <button className="border border-gray-300 text-gray-700 px-6 py-3 rounded">View our work</button>
             </div> 
