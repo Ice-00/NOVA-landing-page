@@ -105,42 +105,49 @@ function App() {
         </div>
       </section>
 
+
       <section className="w-full px-8 py-20 bg-gray-100">
 
         <div className="flex gap-8">
 
           <div className="w-1/2">
+
             <h2 className="text-3xl font-bold">About Us</h2>
 
             <p className="mt-4">  
-            NOVA is a digital studio focused on creating modern websites,
-            digital products, and automation that solve real problems.
+              NOVA is a digital studio focused on creating modern websites,
+              digital products, and automation that solve real problems.
             </p>
 
           </div>
 
           <div className="w-1/2">
-            <h3>Our principles</h3>
+            <h3 className="text-2xl font-bold mb-4">Our principles</h3>
+
             <ul>
-              <li>
-                <div>
-                  <span>01</span>
-                  <h3>Design</h3>
-                </div>
-              </li>
 
               <li>
-                <div>
-                  <span>02</span>
-                  <h3>Build</h3>
+                <div className="flex gap-4">
+                  <span className="text-gray-500">01</span>
+                  <h3 className="text-lg font-semibold">Design</h3>
                 </div>
+                 <p className="ml-8"> Make it clear. Make it useful.</p>
               </li>
 
-              <li>
-                <div>
-                  <span>03</span>
-                  <h3>Automate</h3>
+              <li className="mt-4">
+                <div className="flex gap-4">
+                  <span className="text-gray-500">02</span>
+                  <h3 className="text-lg font-semibold">Build</h3>
                 </div>
+                <p className="ml-8"> Make it robust. Make it scalable.</p>
+              </li>
+
+              <li className="mt-4">
+                <div className="flex gap-4">
+                  <span className="text-gray-500">03</span>
+                  <h3 className="text-lg font-semibold" >Automate</h3>
+                </div>
+                <p className="ml-8"> Make it efficient. Make it effortless.</p>
               </li>
 
             </ul>
@@ -149,6 +156,46 @@ function App() {
 
         </div>
       </section>
+
+      <section className="w-full px-8 py-20">
+
+      <h3 className="text-3xl font-bold">Contact Us</h3>
+      <p className="mt-4 text-xl">Have a project in mind ? <br/> 
+      Let's build something Together 
+      </p>
+
+      <button className="bg-black text-white px-3 py-3 rounded mt-4">
+        Start a project →
+      </button>
+
+      </section>
+
+      <footer className="w-full px-8 py-12 bg-black text-white">
+
+      <div className=" flex justify-between items-center"> 
+
+        <div>
+          <h2>NOVA</h2>
+          <p>
+            Digital Studio <br />
+            We build digital experiences that actually move.
+          </p>
+        </div>
+
+        <div>
+          <ul>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        
+      </div>
+      <p className="text-gray-500 text-sm text-center border-t border-gray-700 mt-8">
+        @ 2026 NOVA. All rights reserved.
+      </p>
+      </footer>
     </>
   )
 }
